@@ -1,0 +1,81 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(254, 221, 221);
+}
+
+.app {
+    height: 35rem;
+    width: 30rem;
+    background-color: rgb(246, 188, 188);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 14px 45px 0px;
+    border-radius: 20px;
+    position: absolute;
+    top: 2rem;
+    left: calc(50% - 15rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Heading styles */
+h1 {
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 150%;
+    margin-top: 2rem;
+}
+
+
+.occu {
+    height: 70%;
+    width: 50%;
+    background-color: #f7abb4;
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition:all 1s;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 90%;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.occu:hover {
+    background-color: #fdb8c0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 14px 45px 0px;
+}
+
+.cardImg {
+    height: 90%;
+    width: 90%;
+}
+
+.card p {
+    text-align: center;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}

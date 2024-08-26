@@ -1,0 +1,27 @@
+<!-- hospital-dashboard.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Dashboard</title>
+    <link rel="stylesheet" href="/dashboard.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome <%= hospital.hospitalName %></h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/logout">Logout</a>
+        </nav>
+    </header>
+    <main>
+        <section class="hospital-info">
+            <h2>Hospital Information</h2>
+            <p><strong>Email:</strong> <%= hospital.email %></p>
+            <p><strong>Address:</strong> <%= hospital.address %></p>
+            <p><strong>Phone Number:</strong> <%= hospital.phoneNumber %></p>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,68 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(254, 221, 221);
+    color: #333;
+    padding: 20px;
+}
+
+/* Container styles */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 2px 8cap rgba(0, 0, 0, 0.1);
+    /* border: 1px solid black; */
+}
+
+/* Heading styles */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fe6cb3;
+}
+
+/* Form styles */
+form {
+    display: grid;
+    gap: 20px;
+    width: 100%;
+}
+
+/* Input field styles */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button styles */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #fc81bd;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #fe6cb3;
+}

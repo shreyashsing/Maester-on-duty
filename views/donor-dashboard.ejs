@@ -1,0 +1,28 @@
+<!-- donor-dashboard.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donor Dashboard</title>
+    <link rel="stylesheet" href="/dashboard.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome <%= donor.firstName %> <%= donor.lastName %></h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/logout">Logout</a>
+        </nav>
+    </header>
+    <main>
+        <section class="donor-info">
+            <h2>Donor Information</h2>
+            <p><strong>Email:</strong> <%= donor.email %></p>
+            <p><strong>Blood Type:</strong> <%= donor.bloodType %></p>
+            <p><strong>Donation Preferences:</strong> <%= donor.donationPreferences %></p>
+            <p><strong>Medical History:</strong> <%= donor.medicalHistory %></p>
+        </section>
+    </main>
+</body>
+</html>
